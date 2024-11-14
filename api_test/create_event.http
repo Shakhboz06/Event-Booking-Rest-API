@@ -1,0 +1,11 @@
+POST http://localhost:5050/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MiwiZXhwIjoxNzMxNjE2NTAwLCJ1c2VyX2VtYWlsIjoiZGFucmFjazNAZ21haWwuY29tIn0.Qqy1cz4E3juYPJotFSwJifSk6AhsKNiJbeCuF3cUNQs
+
+{
+    "name": "new name_test 7",
+    "description": "new testing the event 7",
+    "location": "new test location 7",
+    "datetime": "1825-02-12T12:33:32.000Z",
+    "user_id": 67.0
+}

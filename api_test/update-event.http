@@ -1,0 +1,11 @@
+PUT http://localhost:5050/events/4
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MSwiZXhwIjoxNzMxNjExOTA3LCJ1c2VyX2VtYWlsIjoiZGFubnljcmFjazM0QGdtYWlsLmNvbSJ9.icyzxVx3m9jDEzRacfnWa5fhSb0xZJRQmExSuvVn4Eo
+
+{
+    "Name": "Updated name_test",
+    "Description": "Updated testing the event",
+    "Location": "Updated test location",
+    "Datetime": "2055-01-08T10:45:33Z",
+    "UserID": 0
+  }

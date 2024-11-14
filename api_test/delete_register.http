@@ -1,0 +1,2 @@
+DELETE http://localhost:5050/events/2/register
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRCI6MiwiZXhwIjoxNzMxNjE2NTAwLCJ1c2VyX2VtYWlsIjoiZGFucmFjazNAZ21haWwuY29tIn0.Qqy1cz4E3juYPJotFSwJifSk6AhsKNiJbeCuF3cUNQs
