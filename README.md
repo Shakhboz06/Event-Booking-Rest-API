@@ -88,7 +88,7 @@ Examples of common requests:
 
 - **Create a Booking**:
     ```bash
-    curl -X POST http://localhost:5050/bookings \
+    curl -X POST http://localhost:5050/events \
         -H "Authorization: Bearer <your_token>" \
         -d '{"event_id": 1, "user_id": 2}'
     ```
