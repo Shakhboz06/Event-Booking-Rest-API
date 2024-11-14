@@ -1,7 +1,3 @@
-Here’s a suggested structure for your README.md to provide clear and detailed information about your Event Booking REST API:
-
----
-
 # Event Booking REST API
 
 A high-performance REST API for managing events and bookings, built with Go. This API supports event creation, user reservations, JWT-based authentication, and search/filter capabilities.
@@ -37,8 +33,8 @@ To get started with the project, clone the repository and follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/YourUsername/EventBookingAPI.git
-    cd EventBookingAPI
+    git clone https://github.com/Shakhboz06/Event-Booking-Rest-API.git
+    cd Event-Booking-Rest-API
     ```
 
 2. **Install dependencies** (if any):
@@ -58,7 +54,7 @@ To get started with the project, clone the repository and follow these steps:
     go run main.go
     ```
 
-6. **Access API**: The API will be available at `http://localhost:8080`.
+6. **Access API**: The API will be available at `http://localhost:5050`.
 
 ### Endpoints
 #### Auth
@@ -87,12 +83,12 @@ Examples of common requests:
 
 - **Get Events**:
     ```bash
-    curl -X GET http://localhost:8080/events
+    curl -X GET http://localhost:5050/events
     ```
 
 - **Create a Booking**:
     ```bash
-    curl -X POST http://localhost:8080/bookings \
+    curl -X POST http://localhost:5050/bookings \
         -H "Authorization: Bearer <your_token>" \
         -d '{"event_id": 1, "user_id": 2}'
     ```
@@ -106,5 +102,3 @@ Contributions are welcome! Please follow these steps:
 
 ### License
 This project is licensed under the MIT License.
-
----
