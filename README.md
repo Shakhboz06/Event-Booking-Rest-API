@@ -1,6 +1,6 @@
 # Event Booking REST API
 
-A high-performance REST API for managing events and bookings, built with Go. This API supports event creation, user reservations, JWT-based authentication, and search/filter capabilities.
+A high-performance REST API for managing events and bookings, built with Go using powerful Gin Framework. This API supports event creation, user reservations, JWT-based authentication, and search/filter capabilities.
 
 ## Table of Contents
 - [Features](#features)
